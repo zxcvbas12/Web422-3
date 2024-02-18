@@ -1,3 +1,5 @@
+// About.js
+
 import ListingDetails from "@/components/ListingDetails";
 import PageHeader from "@/components/PageHeader";
 import Link from "next/link";
@@ -35,8 +37,8 @@ export default function About({ listing }) {
             Rainforest Lots Of Aloha
           </p>
         </Card.Body>
-        <ListingDetails listing={listing} />
       </Card>
+      <ListingDetails listing={listing} />
     </>
   );
 }
